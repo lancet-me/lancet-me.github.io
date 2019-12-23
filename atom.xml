@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://lancet-me.github.io/</id>
     <title>Lancet</title>
-    <updated>2019-12-23T00:48:00.624Z</updated>
+    <updated>2019-12-23T01:13:45.120Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://lancet-me.github.io/"/>
     <link rel="self" href="https://lancet-me.github.io//atom.xml"/>
@@ -10,6 +10,26 @@
     <logo>https://lancet-me.github.io//images/avatar.png</logo>
     <icon>https://lancet-me.github.io//favicon.ico</icon>
     <rights>All rights reserved 2019, Lancet</rights>
+    <entry>
+        <title type="html"><![CDATA[关掉朋友圈...]]></title>
+        <id>https://lancet-me.github.io//post/8TpTdUVxB</id>
+        <link href="https://lancet-me.github.io//post/8TpTdUVxB">
+        </link>
+        <updated>2019-12-23T00:51:33.000Z</updated>
+        <summary type="html"><![CDATA[<p>记得以前想关掉微信，奈何微信成为通讯工具，没能关掉。</p>
+<p>微信在发现页有很多功能，我都没打开或者打开关掉了。</p>
+]]></summary>
+        <content type="html"><![CDATA[<p>记得以前想关掉微信，奈何微信成为通讯工具，没能关掉。</p>
+<p>微信在发现页有很多功能，我都没打开或者打开关掉了。</p>
+<!-- more -->
+<p>关掉朋友圈是一种什么样的体验？</p>
+<p>在回答关掉朋友圈是一种什么样的体验，首先需要回答朋友圈我们发什么？</p>
+<p>太积极向上的，不太可能。消极的还是不要发了，免得朋友觉得你是消极的人。</p>
+<p>工作牛逼，不要发，工作low更不要发。</p>
+<p>看到朋友圈，评论还是不评论，如何评论。</p>
+<p>关掉朋友圈，也许是两耳不闻窗外事。不过更多的是，不断认识自我，享受自我和追求自我的过程！</p>
+]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[椎动脉蹼的故事]]></title>
         <id>https://lancet-me.github.io//post/MBZDba2YX</id>
