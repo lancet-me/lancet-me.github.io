@@ -2,14 +2,42 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://lancet-me.github.io/</id>
     <title>Lancet</title>
-    <updated>2019-12-23T01:14:52.182Z</updated>
+    <updated>2019-12-23T08:49:33.718Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://lancet-me.github.io/"/>
     <link rel="self" href="https://lancet-me.github.io//atom.xml"/>
-    <subtitle>陈黎章医生的个人博客</subtitle>
+    <subtitle>陈黎章👨‍⚕️的个人博客</subtitle>
     <logo>https://lancet-me.github.io//images/avatar.png</logo>
     <icon>https://lancet-me.github.io//favicon.ico</icon>
     <rights>All rights reserved 2019, Lancet</rights>
+    <entry>
+        <title type="html"><![CDATA[没那么简单]]></title>
+        <id>https://lancet-me.github.io//post/EpM4gTJnd</id>
+        <link href="https://lancet-me.github.io//post/EpM4gTJnd">
+        </link>
+        <updated>2019-12-23T08:36:21.000Z</updated>
+        <summary type="html"><![CDATA[<p>今天一个造影+两台支架，本以为可以早早结束，结果恰恰相反</p>
+]]></summary>
+        <content type="html"><![CDATA[<p>今天一个造影+两台支架，本以为可以早早结束，结果恰恰相反</p>
+<!-- more -->
+<p>Case 1</p>
+<p>无症状性左侧颈动脉串联狭窄，高血压、糖尿病、抽烟，右侧颈内动脉+大脑中动脉闭塞，左侧锁骨下动脉+椎基底动脉弥漫性不规则狭窄，腹主动脉下段重度狭窄，左侧髂动脉弥漫性不规则狭窄伴溃疡性斑块，右侧髂动脉闭塞。</p>
+<p>左侧股动脉穿刺8F成功后，造影，5F导管+8F Guiding 导管到位，反复尝试，8F Guiding到位左侧颈总动脉困难，更换8F血管长鞘，结果导丝无法通过髂动脉-腹主动脉，What is the fucking？反复进入假腔。</p>
+<p>再穿刺右侧股动脉，同上，无法穿过闭塞段进入远端真腔。</p>
+<p>右侧桡动脉穿刺，使用260cm 泥鳅导丝进入左侧髂动脉、股动脉，最后使用圈套系统将260cm 导丝拉出体外，所谓的通体技术，再换血管长鞘。</p>
+<p>最后颈动脉串联狭窄分别放了2梅支架。</p>
+<p>手术折腾黎4.5小时，心累。</p>
+<p>Case 2</p>
+<p>症状性左侧颈内动脉夹层</p>
+<p>造影+支架</p>
+<p>造影显示双侧颈内动脉C1-2段夹层，右侧椎动脉V2段局限性夹层。</p>
+<p>穿刺8F血管鞘，6F Neuron MAX到位左侧颈内动脉C1末端，准备使用特洛伊木马技术，奈何Neuron MAX长度不够，支架到位后不理想，尝试调整支架，噢吼，Neuron MAX下滑，反复尝试还是不得行。</p>
+<p>再次使用6F Naive导管，到位左侧颈内动脉C2段，后续终于水到渠成，顺利完成。</p>
+<p>华丽支撑系统，Neuron MAX + Naive导管，2+万人民币，不过总体花费不多！</p>
+<!-- more -->
+<!-- more -->
+]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[关掉朋友圈...]]></title>
         <id>https://lancet-me.github.io//post/8TpTdUVxB</id>
