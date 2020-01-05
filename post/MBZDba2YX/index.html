@@ -1,86 +1,109 @@
+
+<!DOCTYPE html>
 <html>
   <head>
-    <meta charset="utf-8" />
-<meta name="viewport" content="width=device-width, initial-scale=1" />
+    
+<meta charset="utf-8" >
+
 <title>椎动脉蹼的故事 | Lancet</title>
-<meta name="description" content="陈黎章👨‍⚕️的个人博客" />
-<link rel="shortcut icon" href="https://lancet-me.github.io//favicon.ico?v=1577090970588">
-<link href="https://cdn.remixicon.com/releases/v1.3.1/remixicon.css" rel="stylesheet">
+<meta name="description" content="陈黎章👨‍⚕️的个人博客">
+
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css">
+
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+<link rel="shortcut icon" href="https://lancet-me.github.io//favicon.ico?v=1578199113067">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.10.0/katex.min.css">
-<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Droid+Serif:400,700">
-
 <link rel="stylesheet" href="https://lancet-me.github.io//styles/main.css">
-<link rel="alternate" type="application/atom+xml" title="椎动脉蹼的故事 | Lancet - Atom Feed" href="https://lancet-me.github.io//atom.xml">
 
-<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Droid+Serif:400,700">
+
+
+<script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+<script src="https://cdn.bootcss.com/highlight.js/9.12.0/highlight.min.js"></script>
 
 
 
   </head>
   <body>
-    <div class="site-nav has-cover">
-      <div class="head">
-  <div class="inner">
-    <a class="site-name" href="https://lancet-me.github.io/">
-        <span>Lancet</span>
-    </a>
-    <label class="burger" for="burger"></label>
-    <input id="burger" type="checkbox">
-    <button class="burger">
-      <div>
-        <span></span>
-        <span></span>
-      </div>
-    </button>
-    <nav class="info_nav">
-      
-        
-          <a href="/">首页</a>
-        
-      
-        
-          <a href="/archives">归档</a>
-        
-      
-        
-          <a href="/tags">标签</a>
-        
-      
-        
-          <a href="/post/about">关于</a>
-        
-      
-        
-          <a href="http://i.dxy.cn/profile/amorst" target="_blank">足迹</a>
-        
-      
-    </nav>
+    <div id="app" class="main">
+      <div class="site-header-container">
+  <div class="site-header">
+    <div class="left">
+      <a href="https://lancet-me.github.io/">
+        <img class="avatar" src="https://lancet-me.github.io//images/avatar.png?v=1578199113067" alt="" width="32px" height="32px">
+      </a>
+      <a href="https://lancet-me.github.io/">
+        <h1 class="site-title">Lancet</h1>
+      </a>
+    </div>
+    <div class="right">
+      <transition name="fade">
+        <i class="icon" :class="{ 'icon-close-outline': menuVisible, 'icon-menu-outline': !menuVisible }" @click="menuVisible = !menuVisible"></i>
+      </transition>
+    </div>
   </div>
 </div>
+
+<transition name="fade">
+  <div class="menu-container" style="display: none;" v-show="menuVisible">
+    <div class="menu-list">
+      
+        
+          <a href="/" class="menu purple-link">
+            首页
+          </a>
+        
+      
+        
+          <a href="/archives" class="menu purple-link">
+            归档
+          </a>
+        
+      
+        
+          <a href="/tags" class="menu purple-link">
+            标签
+          </a>
+        
+      
+        
+          <a href="/post/about" class="menu purple-link">
+            关于
+          </a>
+        
+      
+        
+          <a class="menu purple-link" href="http://i.dxy.cn/profile/amorst" class="menu" target="_blank">
+            足迹
+          </a>
+        
+      
     </div>
-    <article role="main" class="hentry has-cover">
-      
-        <div class="entry-cover js-cover" data-src="https://lancet-me.github.io//post-images/MBZDba2YX.jpeg" data-width="900" data-height="423" style="background-image:url(https://lancet-me.github.io//post-images/MBZDba2YX.jpeg); height: 80vw;">
-          <h1 class="post-title">椎动脉蹼的故事</h1>
-        </div>
-      
-      <h1 class="entry-title" itemprop="headline">椎动脉蹼的故事</h1>
-      <div class="entry-meta">
-        <time class="updated" datetime="2019-12-23 08:46:24">2019-12-23</time>
-        <span class="author vcard">
-          3 min read
-        </span>
-      </div>
-      <div class="post-content yue">
-        <p>女，50岁，因『反复右侧肢体无力3周』就诊。</p>
+  </div>
+</transition>
+
+
+      <div class="content-container">
+        <div class="post-detail">
+          
+            <div class="feature-container" style="background-image: url('https://lancet-me.github.io//post-images/MBZDba2YX.jpeg')">
+            </div>
+          
+          <h2 class="post-title">椎动脉蹼的故事</h2>
+          <div class="post-info post-detail-info">
+            <span><i class="icon-calendar-outline"></i> 2019-12-23</span>
+            
+          </div>
+          <div class="post-content">
+            <p>女，50岁，因『反复右侧肢体无力3周』就诊。</p>
 <p>入院时神经系统查体未见明星异常。</p>
 <p>彩色多普勒查见右侧椎动脉开口处涡流。</p>
 <!-- more -->
-<figure data-type="image" tabindex="1"><img src="https://lancet-me.github.io//post-images/1577062054905.jpeg" alt=""></figure>
+<figure data-type="image" tabindex="1"><img src="https://lancet-me.github.io//post-images/1577062054905.jpeg" alt="" loading="lazy"></figure>
 <p>随后B超，超声造影，CTA和DSA可见如图所示：<br>
-<img src="https://lancet-me.github.io//post-images/1577062019548.jpeg" alt=""></p>
-<figure data-type="image" tabindex="2"><img src="https://lancet-me.github.io//post-images/1577062025659.jpeg" alt=""></figure>
-<p><img src="https://lancet-me.github.io//post-images/1577062030767.jpeg" alt=""><br>
+<img src="https://lancet-me.github.io//post-images/1577062019548.jpeg" alt="" loading="lazy"></p>
+<figure data-type="image" tabindex="2"><img src="https://lancet-me.github.io//post-images/1577062025659.jpeg" alt="" loading="lazy"></figure>
+<p><img src="https://lancet-me.github.io//post-images/1577062030767.jpeg" alt="" loading="lazy"><br>
 基于患者该部位无症状，予以内科药物保守治疗。</p>
 <p>请各位战友来挑战诊断、鉴别诊断是啥？</p>
 <p>以及如果是症状性，需要如何治疗？</p>
@@ -96,75 +119,57 @@
 <p>Update：<br>
 该Case 被Neurology拒绝后，已被Journal of Stroke and Cerebralvascular Disease 接收。</p>
 
-      </div>
-      <div class="entry-block">
-        <div class="entry-tags">
+          </div>
+        </div>
+
+        
+          <div class="next-post">
+            <a class="purple-link" href="https://lancet-me.github.io/post/NulexigVW">
+              <h3 class="post-title">
+                下一篇：马东来和肖飞的故事
+              </h3>
+            </a>
+          </div>
           
-        </div>
       </div>
-    </article>
-    
-      <section class="post-section prev-post">
-        <div class="inner">
-          <h3>前一篇</h3>
-          <a href="https://lancet-me.github.io//post/8TpTdUVxB">
-            <strong>关掉朋友圈...</strong>
-          </a>
-        </div>
-      </section>
-    
-    
-      <section class="post-section prev-post">
-        <div class="inner">
-          <h3>后一篇</h3>
-          <a href="https://lancet-me.github.io//post/NulexigVW">
-            <strong>马东来和肖飞的故事</strong>
-          </a>
-        </div>
-      </section>
-    
 
-    
+      
 
-    <footer class="footer">
-  <div class="main">
-    <a href="https://lancet-me.github.io/">
-      <img class="avatar" src="https://lancet-me.github.io//images/avatar.png?v=1577090970588" alt="Lancet">
-    </a>
-    <div class="footer__social">
+      <div class="site-footer">
+  <div class="slogan">陈黎章👨‍⚕️的个人博客</div>
+  <div class="social-container">
+    
       
-        
+    
       
-        
+    
       
-        
+    
       
-        
+    
       
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-    </div>
-    <p class="footer__sosumi">
-      Powered by <a href="https://lancet-me.github.io" target="_blank">Lancet</a>
-    </p>
-    <a class="footer-rss" href="https://lancet-me.github.io//atom.xml">RSS</a>
+    
   </div>
-</footer>
+  Powered by <a href="https://lancet-me.github.io" target="_blank">Lancet</a> | <a class="rss" href="https://lancet-me.github.io//atom.xml" target="_blank">RSS</a>
+</div>
 
-<script src="https://lancet-me.github.io//media/prism.js"></script>
-<script>
-  Prism.highlightAll()
+
+    </div>
+    <script type="application/javascript">
+
+hljs.initHighlightingOnLoad()
+
+var app = new Vue({
+  el: '#app',
+  data: {
+    menuVisible: false,
+  },
+})
+
 </script>
+
+
+
 
   </body>
 </html>

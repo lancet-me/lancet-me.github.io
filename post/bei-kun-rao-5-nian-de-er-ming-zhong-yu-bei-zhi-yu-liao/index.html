@@ -1,80 +1,103 @@
+
+<!DOCTYPE html>
 <html>
   <head>
-    <meta charset="utf-8" />
-<meta name="viewport" content="width=device-width, initial-scale=1" />
+    
+<meta charset="utf-8" >
+
 <title>被困扰5年的耳鸣，终于被治愈了 | Lancet</title>
-<meta name="description" content="陈黎章👨‍⚕️的个人博客" />
-<link rel="shortcut icon" href="https://lancet-me.github.io//favicon.ico?v=1577090970588">
-<link href="https://cdn.remixicon.com/releases/v1.3.1/remixicon.css" rel="stylesheet">
+<meta name="description" content="陈黎章👨‍⚕️的个人博客">
+
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css">
+
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+<link rel="shortcut icon" href="https://lancet-me.github.io//favicon.ico?v=1578199113067">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.10.0/katex.min.css">
-<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Droid+Serif:400,700">
-
 <link rel="stylesheet" href="https://lancet-me.github.io//styles/main.css">
-<link rel="alternate" type="application/atom+xml" title="被困扰5年的耳鸣，终于被治愈了 | Lancet - Atom Feed" href="https://lancet-me.github.io//atom.xml">
 
-<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Droid+Serif:400,700">
+
+
+<script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+<script src="https://cdn.bootcss.com/highlight.js/9.12.0/highlight.min.js"></script>
 
 
 
   </head>
   <body>
-    <div class="site-nav has-cover">
-      <div class="head">
-  <div class="inner">
-    <a class="site-name" href="https://lancet-me.github.io/">
-        <span>Lancet</span>
-    </a>
-    <label class="burger" for="burger"></label>
-    <input id="burger" type="checkbox">
-    <button class="burger">
-      <div>
-        <span></span>
-        <span></span>
-      </div>
-    </button>
-    <nav class="info_nav">
-      
-        
-          <a href="/">首页</a>
-        
-      
-        
-          <a href="/archives">归档</a>
-        
-      
-        
-          <a href="/tags">标签</a>
-        
-      
-        
-          <a href="/post/about">关于</a>
-        
-      
-        
-          <a href="http://i.dxy.cn/profile/amorst" target="_blank">足迹</a>
-        
-      
-    </nav>
+    <div id="app" class="main">
+      <div class="site-header-container">
+  <div class="site-header">
+    <div class="left">
+      <a href="https://lancet-me.github.io/">
+        <img class="avatar" src="https://lancet-me.github.io//images/avatar.png?v=1578199113067" alt="" width="32px" height="32px">
+      </a>
+      <a href="https://lancet-me.github.io/">
+        <h1 class="site-title">Lancet</h1>
+      </a>
+    </div>
+    <div class="right">
+      <transition name="fade">
+        <i class="icon" :class="{ 'icon-close-outline': menuVisible, 'icon-menu-outline': !menuVisible }" @click="menuVisible = !menuVisible"></i>
+      </transition>
+    </div>
   </div>
 </div>
+
+<transition name="fade">
+  <div class="menu-container" style="display: none;" v-show="menuVisible">
+    <div class="menu-list">
+      
+        
+          <a href="/" class="menu purple-link">
+            首页
+          </a>
+        
+      
+        
+          <a href="/archives" class="menu purple-link">
+            归档
+          </a>
+        
+      
+        
+          <a href="/tags" class="menu purple-link">
+            标签
+          </a>
+        
+      
+        
+          <a href="/post/about" class="menu purple-link">
+            关于
+          </a>
+        
+      
+        
+          <a class="menu purple-link" href="http://i.dxy.cn/profile/amorst" class="menu" target="_blank">
+            足迹
+          </a>
+        
+      
     </div>
-    <article role="main" class="hentry has-cover">
-      
-        <div class="entry-cover js-cover" data-src="https://lancet-me.github.io//post-images/bei-kun-rao-5-nian-de-er-ming-zhong-yu-bei-zhi-yu-liao.jpeg" data-width="900" data-height="423" style="background-image:url(https://lancet-me.github.io//post-images/bei-kun-rao-5-nian-de-er-ming-zhong-yu-bei-zhi-yu-liao.jpeg); height: 80vw;">
-          <h1 class="post-title">被困扰5年的耳鸣，终于被治愈了</h1>
-        </div>
-      
-      <h1 class="entry-title" itemprop="headline">被困扰5年的耳鸣，终于被治愈了</h1>
-      <div class="entry-meta">
-        <time class="updated" datetime="2019-12-23 08:37:38">2019-12-23</time>
-        <span class="author vcard">
-          3 min read
-        </span>
-      </div>
-      <div class="post-content yue">
-        <p>随着年龄的增长，耳鸣的发病率明显增高。由于造成耳鸣的病因较多，种种原因可能使许多耳鸣患者在单一专科就诊时被误诊或漏诊，使患者长期受到异常噪音的困扰，导致生活质量和工作效率的下降。上周，神经内科在日间手术病房治愈了1例被困扰了5年的耳鸣，这里与大家分享一下。</p>
+  </div>
+</transition>
+
+
+      <div class="content-container">
+        <div class="post-detail">
+          
+            <div class="feature-container" style="background-image: url('https://lancet-me.github.io//post-images/bei-kun-rao-5-nian-de-er-ming-zhong-yu-bei-zhi-yu-liao.jpeg')">
+            </div>
+          
+          <h2 class="post-title">被困扰5年的耳鸣，终于被治愈了</h2>
+          <div class="post-info post-detail-info">
+            <span><i class="icon-calendar-outline"></i> 2019-12-23</span>
+            
+          </div>
+          <div class="post-content">
+            <p>随着年龄的增长，耳鸣的发病率明显增高。由于造成耳鸣的病因较多，种种原因可能使许多耳鸣患者在单一专科就诊时被误诊或漏诊，使患者长期受到异常噪音的困扰，导致生活质量和工作效率的下降。上周，神经内科在日间手术病房治愈了1例被困扰了5年的耳鸣，这里与大家分享一下。</p>
 <!-- more -->
-<figure data-type="image" tabindex="1"><img src="https://lancet-me.github.io//post-images/1577061644736.jpeg" alt=""></figure>
+<figure data-type="image" tabindex="1"><img src="https://lancet-me.github.io//post-images/1577061644736.jpeg" alt="" loading="lazy"></figure>
 <p>李阿姨，50+岁，因为【反复左侧耳鸣5年】就诊神经内科陈黎章主治医师门诊，李阿姨自诉耳鸣与心跳节律一致，同时压迫左边脖子，耳鸣可以消失。随后，经过查体后，确定患者为静脉相关搏动性耳鸣，安排了头颅MRV提示：双侧横窦-乙状窦交界处狭窄。根据患者临床症状、体征及头颅MRV考虑患者耳鸣可能与静脉窦狭窄相关。于是向李阿姨和家属沟通可以进一步静脉窦造影、诊断性静脉窦支架置入及必要时解脱支架于病变处的必要性及相关风险后，在门诊完善基本术前检查后李阿姨入住神经内科日间手术病房。</p>
 <p>入院当日便在局麻下右侧股静脉穿刺成功后静脉窦造影显示右侧横窦优势引流，双侧横窦乙状窦交界处狭窄。微导丝微导管通过左侧横窦乙状窦交界处狭窄后，病人诉左侧耳鸣症状减轻，但未完全消失。</p>
 <p>将Solitare支架（一种可回收和解脱支架装置）释放在狭窄处后，病人耳鸣症状完全消失。为确保支架植入的有效性，再次将Solitare支架回收后，患者左侧耳鸣症状再次出现。再次将Solitare支架释放在狭窄处后，病人耳鸣症状完全消失。于是将Solitare支架解脱在静脉窦狭窄处，患者耳鸣症状未再出现。术中、术后患者没有特殊不适，第二天患者便带抗血小板药物（支架术后需要常规口服抗血小板药物约半年）出院。</p>
@@ -89,75 +112,57 @@
 <p>如果您或者家人和朋友长期受上述耳鸣的困扰，可以至华西医院神经内科郑洪波教授、蒋毅副教授、胡发云副教授或陈黎章主治医师门诊就诊评估静脉窦支架置入术指征，或添加陈医生微信：18980926484进行评估。</p>
 <p>静脉窦支架手术优点：患者手术中全程清醒，微创手术，术后第二天即可出院。</p>
 
-      </div>
-      <div class="entry-block">
-        <div class="entry-tags">
+          </div>
+        </div>
+
+        
+          <div class="next-post">
+            <a class="purple-link" href="https://lancet-me.github.io/post/hello-gridea">
+              <h3 class="post-title">
+                下一篇：Hello，World
+              </h3>
+            </a>
+          </div>
           
-        </div>
       </div>
-    </article>
-    
-      <section class="post-section prev-post">
-        <div class="inner">
-          <h3>前一篇</h3>
-          <a href="https://lancet-me.github.io//post/NulexigVW">
-            <strong>马东来和肖飞的故事</strong>
-          </a>
-        </div>
-      </section>
-    
-    
-      <section class="post-section prev-post">
-        <div class="inner">
-          <h3>后一篇</h3>
-          <a href="https://lancet-me.github.io//post/hello-gridea">
-            <strong>Hello，World</strong>
-          </a>
-        </div>
-      </section>
-    
 
-    
+      
 
-    <footer class="footer">
-  <div class="main">
-    <a href="https://lancet-me.github.io/">
-      <img class="avatar" src="https://lancet-me.github.io//images/avatar.png?v=1577090970588" alt="Lancet">
-    </a>
-    <div class="footer__social">
+      <div class="site-footer">
+  <div class="slogan">陈黎章👨‍⚕️的个人博客</div>
+  <div class="social-container">
+    
       
-        
+    
       
-        
+    
       
-        
+    
       
-        
+    
       
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-    </div>
-    <p class="footer__sosumi">
-      Powered by <a href="https://lancet-me.github.io" target="_blank">Lancet</a>
-    </p>
-    <a class="footer-rss" href="https://lancet-me.github.io//atom.xml">RSS</a>
+    
   </div>
-</footer>
+  Powered by <a href="https://lancet-me.github.io" target="_blank">Lancet</a> | <a class="rss" href="https://lancet-me.github.io//atom.xml" target="_blank">RSS</a>
+</div>
 
-<script src="https://lancet-me.github.io//media/prism.js"></script>
-<script>
-  Prism.highlightAll()
+
+    </div>
+    <script type="application/javascript">
+
+hljs.initHighlightingOnLoad()
+
+var app = new Vue({
+  el: '#app',
+  data: {
+    menuVisible: false,
+  },
+})
+
 </script>
+
+
+
 
   </body>
 </html>

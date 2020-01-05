@@ -1,74 +1,98 @@
+
+<!DOCTYPE html>
 <html>
   <head>
-    <meta charset="utf-8" />
-<meta name="viewport" content="width=device-width, initial-scale=1" />
+    
+<meta charset="utf-8" >
+
 <title>关于 | Lancet</title>
-<meta name="description" content="陈黎章👨‍⚕️的个人博客" />
-<link rel="shortcut icon" href="https://lancet-me.github.io//favicon.ico?v=1577090970588">
-<link href="https://cdn.remixicon.com/releases/v1.3.1/remixicon.css" rel="stylesheet">
+<meta name="description" content="陈黎章👨‍⚕️的个人博客">
+
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css">
+
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+<link rel="shortcut icon" href="https://lancet-me.github.io//favicon.ico?v=1578199113067">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.10.0/katex.min.css">
-<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Droid+Serif:400,700">
-
 <link rel="stylesheet" href="https://lancet-me.github.io//styles/main.css">
-<link rel="alternate" type="application/atom+xml" title="关于 | Lancet - Atom Feed" href="https://lancet-me.github.io//atom.xml">
 
-<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Droid+Serif:400,700">
+
+
+<script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+<script src="https://cdn.bootcss.com/highlight.js/9.12.0/highlight.min.js"></script>
 
 
 
   </head>
   <body>
-    <div class="site-nav no-cover">
-      <div class="head">
-  <div class="inner">
-    <a class="site-name" href="https://lancet-me.github.io/">
-        <span>Lancet</span>
-    </a>
-    <label class="burger" for="burger"></label>
-    <input id="burger" type="checkbox">
-    <button class="burger">
-      <div>
-        <span></span>
-        <span></span>
-      </div>
-    </button>
-    <nav class="info_nav">
-      
-        
-          <a href="/">首页</a>
-        
-      
-        
-          <a href="/archives">归档</a>
-        
-      
-        
-          <a href="/tags">标签</a>
-        
-      
-        
-          <a href="/post/about">关于</a>
-        
-      
-        
-          <a href="http://i.dxy.cn/profile/amorst" target="_blank">足迹</a>
-        
-      
-    </nav>
+    <div id="app" class="main">
+      <div class="site-header-container">
+  <div class="site-header">
+    <div class="left">
+      <a href="https://lancet-me.github.io/">
+        <img class="avatar" src="https://lancet-me.github.io//images/avatar.png?v=1578199113067" alt="" width="32px" height="32px">
+      </a>
+      <a href="https://lancet-me.github.io/">
+        <h1 class="site-title">Lancet</h1>
+      </a>
+    </div>
+    <div class="right">
+      <transition name="fade">
+        <i class="icon" :class="{ 'icon-close-outline': menuVisible, 'icon-menu-outline': !menuVisible }" @click="menuVisible = !menuVisible"></i>
+      </transition>
+    </div>
   </div>
 </div>
-    </div>
-    <article role="main" class="hentry ">
+
+<transition name="fade">
+  <div class="menu-container" style="display: none;" v-show="menuVisible">
+    <div class="menu-list">
       
-      <h1 class="entry-title" itemprop="headline">关于</h1>
-      <div class="entry-meta">
-        <time class="updated" datetime="2019-01-25 19:09:48">2019-01-25</time>
-        <span class="author vcard">
-          3 min read
-        </span>
-      </div>
-      <div class="post-content yue">
-        <blockquote>
+        
+          <a href="/" class="menu purple-link">
+            首页
+          </a>
+        
+      
+        
+          <a href="/archives" class="menu purple-link">
+            归档
+          </a>
+        
+      
+        
+          <a href="/tags" class="menu purple-link">
+            标签
+          </a>
+        
+      
+        
+          <a href="/post/about" class="menu purple-link">
+            关于
+          </a>
+        
+      
+        
+          <a class="menu purple-link" href="http://i.dxy.cn/profile/amorst" class="menu" target="_blank">
+            足迹
+          </a>
+        
+      
+    </div>
+  </div>
+</transition>
+
+
+      <div class="content-container">
+        <div class="post-detail">
+          
+          <h2 class="post-title">关于</h2>
+          <div class="post-info post-detail-info">
+            <span><i class="icon-calendar-outline"></i> 2019-01-25</span>
+            
+          </div>
+          <div class="post-content">
+            <blockquote>
 <p>欢迎来到我的小站呀，很高兴遇见你！🤝</p>
 </blockquote>
 <h2 id="关于本站">🏠 关于本站</h2>
@@ -103,57 +127,49 @@
 <h2 id="联系我呀">📬 联系我呀</h2>
 <p>📮：lzchen@live.com</p>
 
-      </div>
-      <div class="entry-block">
-        <div class="entry-tags">
-          
+          </div>
         </div>
+
+        
       </div>
-    </article>
-    
-    
 
-    
+      
 
-    <footer class="footer">
-  <div class="main">
-    <a href="https://lancet-me.github.io/">
-      <img class="avatar" src="https://lancet-me.github.io//images/avatar.png?v=1577090970588" alt="Lancet">
-    </a>
-    <div class="footer__social">
+      <div class="site-footer">
+  <div class="slogan">陈黎章👨‍⚕️的个人博客</div>
+  <div class="social-container">
+    
       
-        
+    
       
-        
+    
       
-        
+    
       
-        
+    
       
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-    </div>
-    <p class="footer__sosumi">
-      Powered by <a href="https://lancet-me.github.io" target="_blank">Lancet</a>
-    </p>
-    <a class="footer-rss" href="https://lancet-me.github.io//atom.xml">RSS</a>
+    
   </div>
-</footer>
+  Powered by <a href="https://lancet-me.github.io" target="_blank">Lancet</a> | <a class="rss" href="https://lancet-me.github.io//atom.xml" target="_blank">RSS</a>
+</div>
 
-<script src="https://lancet-me.github.io//media/prism.js"></script>
-<script>
-  Prism.highlightAll()
+
+    </div>
+    <script type="application/javascript">
+
+hljs.initHighlightingOnLoad()
+
+var app = new Vue({
+  el: '#app',
+  data: {
+    menuVisible: false,
+  },
+})
+
 </script>
+
+
+
 
   </body>
 </html>

@@ -1,191 +1,217 @@
 <html>
   <head>
-    <meta charset="utf-8" />
-<meta name="viewport" content="width=device-width, initial-scale=1" />
+    
+<meta charset="utf-8" >
+
 <title>Lancet</title>
-<meta name="description" content="陈黎章👨‍⚕️的个人博客" />
-<link rel="shortcut icon" href="https://lancet-me.github.io//favicon.ico?v=1577090970588">
-<link href="https://cdn.remixicon.com/releases/v1.3.1/remixicon.css" rel="stylesheet">
+<meta name="description" content="陈黎章👨‍⚕️的个人博客">
+
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css">
+
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+<link rel="shortcut icon" href="https://lancet-me.github.io//favicon.ico?v=1578199113067">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.10.0/katex.min.css">
-<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Droid+Serif:400,700">
-
 <link rel="stylesheet" href="https://lancet-me.github.io//styles/main.css">
-<link rel="alternate" type="application/atom+xml" title="Lancet - Atom Feed" href="https://lancet-me.github.io//atom.xml">
 
-<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Droid+Serif:400,700">
+
+
+<script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+<script src="https://cdn.bootcss.com/highlight.js/9.12.0/highlight.min.js"></script>
 
 
 
   </head>
   <body>
-    <div class="head">
-  <div class="inner">
-    <a class="site-name" href="https://lancet-me.github.io/">
-        <span>Lancet</span>
-    </a>
-    <label class="burger" for="burger"></label>
-    <input id="burger" type="checkbox">
-    <button class="burger">
-      <div>
-        <span></span>
-        <span></span>
-      </div>
-    </button>
-    <nav class="info_nav">
-      
-        
-          <a href="/">首页</a>
-        
-      
-        
-          <a href="/archives">归档</a>
-        
-      
-        
-          <a href="/tags">标签</a>
-        
-      
-        
-          <a href="/post/about">关于</a>
-        
-      
-        
-          <a href="http://i.dxy.cn/profile/amorst" target="_blank">足迹</a>
-        
-      
-    </nav>
+    <div id="app" class="main">
+      <div class="site-header-container">
+  <div class="site-header">
+    <div class="left">
+      <a href="https://lancet-me.github.io/">
+        <img class="avatar" src="https://lancet-me.github.io//images/avatar.png?v=1578199113067" alt="" width="32px" height="32px">
+      </a>
+      <a href="https://lancet-me.github.io/">
+        <h1 class="site-title">Lancet</h1>
+      </a>
+    </div>
+    <div class="right">
+      <transition name="fade">
+        <i class="icon" :class="{ 'icon-close-outline': menuVisible, 'icon-menu-outline': !menuVisible }" @click="menuVisible = !menuVisible"></i>
+      </transition>
+    </div>
   </div>
 </div>
-    <div class="info _site">
-      <div class="inner">
-        <div class="info_main">
-          <h1 class="info_title"><i class="remixicon-archive-line"></i> 目前共计 6 篇创作</h1>
-        </div>
-      </div>
+
+<transition name="fade">
+  <div class="menu-container" style="display: none;" v-show="menuVisible">
+    <div class="menu-list">
+      
+        
+          <a href="/" class="menu purple-link">
+            首页
+          </a>
+        
+      
+        
+          <a href="/archives" class="menu purple-link">
+            归档
+          </a>
+        
+      
+        
+          <a href="/tags" class="menu purple-link">
+            标签
+          </a>
+        
+      
+        
+          <a href="/post/about" class="menu purple-link">
+            关于
+          </a>
+        
+      
+        
+          <a class="menu purple-link" href="http://i.dxy.cn/profile/amorst" class="menu" target="_blank">
+            足迹
+          </a>
+        
+      
     </div>
-    <div class="main">
-      <div class="inner">
-        <div class="items">
+  </div>
+</transition>
+
+
+        <div class="content-container">
+          
+          
+
+<div class="archives-container">
   
-    <div class="item Article">
+    <h2 class="year">2019</h2>
+    
       
-        <a class="item-image js-cover" data-src="https://lancet-me.github.io//post-images/EpM4gTJnd.png" href="https://lancet-me.github.io//post/EpM4gTJnd" style="background-image:url('https://lancet-me.github.io//post-images/EpM4gTJnd.png');"></a>
+        <article class="post">
+          <a href="https://lancet-me.github.io/post/EpM4gTJnd">
+            <h2 class="post-title">
+              没那么简单
+              <small>2019-12-23</small>
+            </h2>
+          </a>
+        </article>
       
-      <a class="item-main" href="https://lancet-me.github.io//post/EpM4gTJnd">
-        <div class="item-meta">
-          <time datetime="2019-12-23 16:36:21">2019-12-23</time>
-        </div>
-        <h2>没那么简单</h2>
-      </a>
-    </div>
+    
+      
+        <article class="post">
+          <a href="https://lancet-me.github.io/post/8TpTdUVxB">
+            <h2 class="post-title">
+              关掉朋友圈...
+              <small>2019-12-23</small>
+            </h2>
+          </a>
+        </article>
+      
+    
+      
+        <article class="post">
+          <a href="https://lancet-me.github.io/post/MBZDba2YX">
+            <h2 class="post-title">
+              椎动脉蹼的故事
+              <small>2019-12-23</small>
+            </h2>
+          </a>
+        </article>
+      
+    
+      
+        <article class="post">
+          <a href="https://lancet-me.github.io/post/NulexigVW">
+            <h2 class="post-title">
+              马东来和肖飞的故事
+              <small>2019-12-23</small>
+            </h2>
+          </a>
+        </article>
+      
+    
+      
+        <article class="post">
+          <a href="https://lancet-me.github.io/post/bei-kun-rao-5-nian-de-er-ming-zhong-yu-bei-zhi-yu-liao">
+            <h2 class="post-title">
+              被困扰5年的耳鸣，终于被治愈了
+              <small>2019-12-23</small>
+            </h2>
+          </a>
+        </article>
+      
+    
+      
+    
   
-    <div class="item Article">
+    <h2 class="year">2018</h2>
+    
       
-        <a class="item-image js-cover" data-src="https://lancet-me.github.io//post-images/8TpTdUVxB.jpeg" href="https://lancet-me.github.io//post/8TpTdUVxB" style="background-image:url('https://lancet-me.github.io//post-images/8TpTdUVxB.jpeg');"></a>
+    
       
-      <a class="item-main" href="https://lancet-me.github.io//post/8TpTdUVxB">
-        <div class="item-meta">
-          <time datetime="2019-12-23 08:51:33">2019-12-23</time>
-        </div>
-        <h2>关掉朋友圈...</h2>
-      </a>
-    </div>
-  
-    <div class="item Article">
+    
       
-        <a class="item-image js-cover" data-src="https://lancet-me.github.io//post-images/MBZDba2YX.jpeg" href="https://lancet-me.github.io//post/MBZDba2YX" style="background-image:url('https://lancet-me.github.io//post-images/MBZDba2YX.jpeg');"></a>
+    
       
-      <a class="item-main" href="https://lancet-me.github.io//post/MBZDba2YX">
-        <div class="item-meta">
-          <time datetime="2019-12-23 08:46:24">2019-12-23</time>
-        </div>
-        <h2>椎动脉蹼的故事</h2>
-      </a>
-    </div>
-  
-    <div class="item Article">
+    
       
-        <a class="item-image js-cover" data-src="https://lancet-me.github.io//post-images/NulexigVW.png" href="https://lancet-me.github.io//post/NulexigVW" style="background-image:url('https://lancet-me.github.io//post-images/NulexigVW.png');"></a>
+    
       
-      <a class="item-main" href="https://lancet-me.github.io//post/NulexigVW">
-        <div class="item-meta">
-          <time datetime="2019-12-23 08:42:35">2019-12-23</time>
-        </div>
-        <h2>马东来和肖飞的故事</h2>
-      </a>
-    </div>
-  
-    <div class="item Article">
+        <article class="post">
+          <a href="https://lancet-me.github.io/post/hello-gridea">
+            <h2 class="post-title">
+              Hello，World
+              <small>2018-12-12</small>
+            </h2>
+          </a>
+        </article>
       
-        <a class="item-image js-cover" data-src="https://lancet-me.github.io//post-images/bei-kun-rao-5-nian-de-er-ming-zhong-yu-bei-zhi-yu-liao.jpeg" href="https://lancet-me.github.io//post/bei-kun-rao-5-nian-de-er-ming-zhong-yu-bei-zhi-yu-liao" style="background-image:url('https://lancet-me.github.io//post-images/bei-kun-rao-5-nian-de-er-ming-zhong-yu-bei-zhi-yu-liao.jpeg');"></a>
-      
-      <a class="item-main" href="https://lancet-me.github.io//post/bei-kun-rao-5-nian-de-er-ming-zhong-yu-bei-zhi-yu-liao">
-        <div class="item-meta">
-          <time datetime="2019-12-23 08:37:38">2019-12-23</time>
-        </div>
-        <h2>被困扰5年的耳鸣，终于被治愈了</h2>
-      </a>
-    </div>
-  
-    <div class="item Article">
-      
-        <a class="item-image js-cover" data-src="https://lancet-me.github.io//post-images/hello-gridea.png" href="https://lancet-me.github.io//post/hello-gridea" style="background-image:url('https://lancet-me.github.io//post-images/hello-gridea.png');"></a>
-      
-      <a class="item-main" href="https://lancet-me.github.io//post/hello-gridea">
-        <div class="item-meta">
-          <time datetime="2018-12-12 00:00:00">2018-12-12</time>
-        </div>
-        <h2>Hello，World</h2>
-      </a>
-    </div>
+    
   
 </div>
 
-        <div class="navigation">
-  
-  
-</div>
-      </div>
-    </div>
-    <footer class="footer">
-  <div class="main">
-    <a href="https://lancet-me.github.io/">
-      <img class="avatar" src="https://lancet-me.github.io//images/avatar.png?v=1577090970588" alt="Lancet">
-    </a>
-    <div class="footer__social">
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-    </div>
-    <p class="footer__sosumi">
-      Powered by <a href="https://lancet-me.github.io" target="_blank">Lancet</a>
-    </p>
-    <a class="footer-rss" href="https://lancet-me.github.io//atom.xml">RSS</a>
-  </div>
-</footer>
 
-<script src="https://lancet-me.github.io//media/prism.js"></script>
-<script>
-  Prism.highlightAll()
+        </div>
+
+        <div class="site-footer">
+  <div class="slogan">陈黎章👨‍⚕️的个人博客</div>
+  <div class="social-container">
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+  </div>
+  Powered by <a href="https://lancet-me.github.io" target="_blank">Lancet</a> | <a class="rss" href="https://lancet-me.github.io//atom.xml" target="_blank">RSS</a>
+</div>
+
+
+      </div>
+      <script type="application/javascript">
+
+hljs.initHighlightingOnLoad()
+
+var app = new Vue({
+  el: '#app',
+  data: {
+    menuVisible: false,
+  },
+})
+
 </script>
 
+
+
+
+    </div>
   </body>
 </html>
