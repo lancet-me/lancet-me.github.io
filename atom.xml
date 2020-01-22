@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://lancet-me.github.io/</id>
     <title>陈黎章医生</title>
-    <updated>2020-01-22T03:57:01.356Z</updated>
+    <updated>2020-01-22T04:22:48.611Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://lancet-me.github.io/"/>
     <link rel="self" href="https://lancet-me.github.io/atom.xml"/>
@@ -16,9 +16,8 @@
         <link href="https://lancet-me.github.io/post/EpM4gTJnd">
         </link>
         <updated>2019-12-23T08:36:21.000Z</updated>
-        <summary type="html"><![CDATA[<p>今天一个造影+两台支架，本以为可以早早结束，结果恰恰相反</p>
-]]></summary>
-        <content type="html"><![CDATA[<p>今天一个造影+两台支架，本以为可以早早结束，结果恰恰相反</p>
+        <content type="html"><![CDATA[<!-- more -->
+<p>今天一个造影+两台支架，本以为可以早早结束，结果恰恰相反</p>
 <!-- more -->
 <p>Case 1</p>
 <p>无症状性左侧颈动脉串联狭窄，高血压、糖尿病、抽烟，右侧颈内动脉+大脑中动脉闭塞，左侧锁骨下动脉+椎基底动脉弥漫性不规则狭窄，腹主动脉下段重度狭窄，左侧髂动脉弥漫性不规则狭窄伴溃疡性斑块，右侧髂动脉闭塞。</p>
@@ -44,10 +43,8 @@
         <link href="https://lancet-me.github.io/post/8TpTdUVxB">
         </link>
         <updated>2019-12-23T00:51:33.000Z</updated>
-        <summary type="html"><![CDATA[<p>记得以前想关掉微信，奈何微信成为通讯工具，没能关掉。</p>
-<p>微信在发现页有很多功能，我都没打开或者打开关掉了。</p>
-]]></summary>
-        <content type="html"><![CDATA[<p>记得以前想关掉微信，奈何微信成为通讯工具，没能关掉。</p>
+        <content type="html"><![CDATA[<!-- more -->
+<p>记得以前想关掉微信，奈何微信成为通讯工具，没能关掉。</p>
 <p>微信在发现页有很多功能，我都没打开或者打开关掉了。</p>
 <!-- more -->
 <p>关掉朋友圈是一种什么样的体验？</p>
@@ -64,11 +61,8 @@
         <link href="https://lancet-me.github.io/post/MBZDba2YX">
         </link>
         <updated>2019-12-23T00:46:24.000Z</updated>
-        <summary type="html"><![CDATA[<p>女，50岁，因『反复右侧肢体无力3周』就诊。</p>
-<p>入院时神经系统查体未见明星异常。</p>
-<p>彩色多普勒查见右侧椎动脉开口处涡流。</p>
-]]></summary>
-        <content type="html"><![CDATA[<p>女，50岁，因『反复右侧肢体无力3周』就诊。</p>
+        <content type="html"><![CDATA[<!-- more -->
+<p>女，50岁，因『反复右侧肢体无力3周』就诊。</p>
 <p>入院时神经系统查体未见明星异常。</p>
 <p>彩色多普勒查见右侧椎动脉开口处涡流。</p>
 <!-- more -->
