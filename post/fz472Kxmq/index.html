@@ -4,7 +4,7 @@
 <meta name="description" content=""/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
 <title>保罗·赞博尼的故事（二） | 陈黎章医生</title>
-<link rel="shortcut icon" href="https://lancet-me.github.io/favicon.ico?v=1580117601233">
+<link rel="shortcut icon" href="https://lancet-me.github.io/favicon.ico?v=1580392290342">
 <link href="https://cdn.bootcss.com/font-awesome/5.11.2/css/all.css" rel="stylesheet">
 <link rel="stylesheet" href="https://lancet-me.github.io/styles/main.css">
 <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
@@ -127,6 +127,32 @@
             </div>
         
 
+        
+            
+                <link rel="stylesheet" href="https://unpkg.com/gitalk/dist/gitalk.css">
+<script src="https://unpkg.com/gitalk/dist/gitalk.min.js"></script>
+
+<div id="gitalk-container"></div>
+
+<script>
+
+  var gitalk = new Gitalk({
+    clientID: 'bb6ee52c01afc8e11995',
+    clientSecret: 'e8f83669726b7f91de3563791d62e7952bc9b383',
+    repo: 'lancet-me.github.io',
+    owner: 'lancet-me',
+    admin: ['lancet-me'],
+    id: location.pathname,      // Ensure uniqueness and length less than 50
+    distractionFreeMode: false  // Facebook-like distraction free mode
+  })
+
+  gitalk.render('gitalk-container')
+
+</script>
+
+            
+
+            
         
 
         <div class="site-footer gt-c-content-color-first">
